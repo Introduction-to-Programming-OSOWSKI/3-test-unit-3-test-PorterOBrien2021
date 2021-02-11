@@ -8,12 +8,12 @@ print(countB("baseball"))
 
 def sumbetweenOdd(x, y):
     cat = 0
-    for i in range(x + 1, y):
+    for i in range(x, y):
         if i % 2 == 1:
             cat = cat + i
     return cat
 
-print(sumbetweenOdd(2, 10))
+print(sumbetweenOdd(5, 13))
 
 
 
