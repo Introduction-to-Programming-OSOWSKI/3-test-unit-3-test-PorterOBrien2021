@@ -6,14 +6,14 @@ def countB(w):
     return count
 print(countB("baseball"))
 
-def sumbetweenOdd(x, y):
+def sumBetweenOdd(x, y):
     cat = 0
-    for i in range(x, y):
+    for i in range(x + 1, y):
         if i % 2 == 1:
             cat = cat + i
     return cat
 
-print(sumbetweenOdd(5, 13))
+print(sumBetweenOdd(5, 13))
 
 
 
